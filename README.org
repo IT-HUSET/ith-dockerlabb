@@ -1,0 +1,36 @@
+* ith-dockerlabb
+** The Docker tutorial
+Have a look at theDocker tutorial:
+https://www.docker.com/tryit/
+It's simulated, so you dont need to install anything!
+** Run something for real
+Investigate https://registry.hub.docker.com/ and run something.
+
+Maybe some tool related to Devops, like nginx, gitlab, etc.
+
+** Build something in Docker
+Building Java code is too easy, so why not build something like Emacs?
+
+Here is a build recipy for building Emacs inside a Fedora 20 docker container:
+
+https://github.com/jave/xwidget-aux/tree/master/emacs-xwidget-docker-f20
+
+Here is the same, but for Debian:
+
+https://github.com/jave/xwidget-aux/tree/master/emacs-xwidget-docker-debian
+
+** Run a graphical application in Docker
+
+There are at least three ways to do it. 
+- run a VNC server inside the Docker
+- use ssh -X inside the container
+- expose the X-windows socket
+
+** Run a Docker cluster of something
+
+Perhaps connect a mysql docker with a java docker?
+
+** Run the Docker Registry locally
+
+It's an interesting example because the docker registry is deployed as a set of docker containers!
+

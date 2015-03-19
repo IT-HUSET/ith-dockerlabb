@@ -1,8 +1,8 @@
 * ith-dockerlabb
 ** The Docker tutorial
-Have a look at theDocker tutorial:
+Have a look at the Docker tutorial:
 https://www.docker.com/tryit/
-It's simulated, so you dont need to install anything!
+It's simulated, so you don't need to install anything!
 ** Run something for real
 Investigate https://registry.hub.docker.com/ and run something.
 
@@ -11,7 +11,7 @@ Maybe some tool related to Devops, like nginx, gitlab, etc.
 ** Build something in Docker
 Building Java code is too easy, so why not build something like Emacs?
 
-Here is a build recipy for building Emacs inside a Fedora 20 docker container:
+Here is a build recipe for building Emacs inside a Fedora 20 docker container:
 
 https://github.com/jave/xwidget-aux/tree/master/emacs-xwidget-docker-f20
 
